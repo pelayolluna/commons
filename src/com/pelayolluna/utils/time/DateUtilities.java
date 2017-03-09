@@ -65,4 +65,8 @@ public final class DateUtilities {
 
 		return date;
 	}
+	
+	public static Date getDateSum(Date beginDate, Date endDate) {
+		return new Date(beginDate.getTime() + endDate.getTime());
+	}
 }
