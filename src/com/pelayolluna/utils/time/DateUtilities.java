@@ -16,6 +16,11 @@
 
 package com.pelayolluna.utils;
 
+/**
+ *
+ * @author Pelayo Jose Lluna Gonzalez
+ */
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
