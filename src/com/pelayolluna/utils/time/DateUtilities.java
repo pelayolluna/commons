@@ -74,4 +74,8 @@ public final class DateUtilities {
 	public static Date getDateSum(Date beginDate, Date endDate) {
 		return new Date(beginDate.getTime() + endDate.getTime());
 	}
+	
+	public static Date timestampToDate(long timestamp) {
+		return new java.util.Date((long)timeStamp*1000);
+	}
 }
