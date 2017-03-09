@@ -19,6 +19,7 @@ package com.pelayolluna.utils;
 /**
  *
  * @author Pelayo Jose Lluna Gonzalez
+ *
  * @param <M>
  *            market
  * @param <V>
